@@ -30,15 +30,15 @@
                             </div>
                             <div class="navbar-wrap main-menu d-none d-lg-flex">
                                 <ul class="navigation">
-                                    <li class="active menu-item-has-children"><a href="#">Home</a>
+                                    <li class="active menu-item-has-children"><a href="{{ url('/') }}">Home</a>
                                         <ul class="submenu">
                                             <li class="active"><a href="{{ url('/') }}">Home One</a></li>
                                             <li><a href="index-2.html">Home Two</a></li>
                                         </ul>
                                     </li>
-                                    <li class="menu-item-has-children"><a href="#">Movie</a>
+                                    <li class="menu-item-has-children"><a href="{{ url('/movie') }}">Movie</a>
                                         <ul class="submenu">
-                                            <li><a href="movie.html">Movie</a></li>
+                                            <li><a href="{{ url('/movie') }}">Movie</a></li>
                                             <li><a href="movie-details.html">Movie Details</a></li>
                                         </ul>
                                     </li>
